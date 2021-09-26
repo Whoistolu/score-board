@@ -29,9 +29,10 @@ const activities = [
 ];
  
 activities.forEach((e) => {
-  const html = `<input type="checkbox">
+  const html = `<input id="input-field" type="checkbox">
   <input value="${activities.description}" type="text"></input>
   <i class="fas fa-ellipsis-v"></i>`;
   const div = document.createElement('div');
   div.innerHTML = html;
+  const input = div.querySelector('.input-field');
 });
