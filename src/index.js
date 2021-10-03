@@ -27,7 +27,7 @@ const activities = [
     index: 0,
   },
 ];
- 
+
 activities.forEach((e) => {
   const html = `<input id="input-field" type="checkbox">
   <input value="${activities.description}" type="text"></input>
